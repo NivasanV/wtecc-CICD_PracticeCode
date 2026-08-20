@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: python:3.9-slim
+    container: node:20-alpine
     steps:
       - uses: actions/checkout@v4
       - run: echo "Hello from the workflow!"
